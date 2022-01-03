@@ -32,7 +32,7 @@ pipeline{
               }
             }
             steps {
-                bat 'make publish'
+                echo 'Deploying the code'
             }
         }
 		}		
