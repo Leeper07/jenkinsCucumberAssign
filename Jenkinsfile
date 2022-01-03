@@ -21,7 +21,7 @@ pipeline{
 			    steps{
 			        bat 'mvn test'
 			        
-			        junit '**/target/surefire-reports/Testng-*.xml'
+			        junit '**/target/cucumber-reports/Cucumber.xml'
 			    }   
 			}
 		}		
