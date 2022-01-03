@@ -12,6 +12,6 @@ import io.cucumber.junit.CucumberOptions;
 		plugin = { "pretty", "junit:target/cucumber-reports/Cucumber.xml" },
 		monochrome = true)
 
-public class testRunner {
+public class RunnerTest {
 
 }
